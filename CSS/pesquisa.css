@@ -1,0 +1,87 @@
+.cabecalho{
+    padding: 20px !important;
+    background-color: rgb(32, 32, 32);
+    height: 90px;
+}
+
+img.navbar-brand {
+    height: 8vh;
+}
+i.bi-search{
+    font-size:large;
+    color: #ffd700;
+}
+/* botão de pesquisa*/
+
+button.btn-outline-success{
+    border-color: transparent;
+}
+button.btn-outline-success:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+button.btn-outline-success:hover i{
+
+    color: aliceblue;
+}
+
+.main{
+    background-color: rgb(19, 19, 19) !important;
+}
+
+main h1{
+    color: #ffd700;
+    text-align: center;
+    padding: 15px;
+}
+
+div.card-corpo{
+ background-color: rgb(17, 17, 17);
+ color: aliceblue;
+ border-color: transparent;
+}
+
+i.redes {
+    color: #ffd700;
+    font-size: 2rem;
+    margin: 15px;
+}
+
+.footer_area{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer{ 
+    padding: 10px;
+    background: rgb(32, 32, 32);
+    color: white;
+}
+
+@media (max-width: 576px){
+    .cabecalho{
+        height: 150px;
+        align-items: center;
+    }
+    .cabecalho img{
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    .cabecalho input{
+        width: 43vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.logo{
+    max-width:64px;
+    max-height:64px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
